@@ -1,5 +1,3 @@
-$( document ).ready(function() {
-
 $(document).on('mousemove', function(e){
     $('#character').css({
        left:  e.pageX,
@@ -8,4 +6,3 @@ $(document).on('mousemove', function(e){
     });
 });
 
-});
