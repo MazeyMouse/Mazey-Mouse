@@ -1,8 +1,3 @@
-<head>
-<style>
-#character {position:absolute;display:none;color:white;background-color:black}
-#onme {width:150px;height:80px;background-color:yellow;cursor:pointer}
-</style>
 <script type="text/javascript">
 var divName = 'character'; // div that is to follow the mouse (must be position:absolute)
 var offX = 15;          // X offset from mouse position
@@ -17,11 +12,4 @@ function follow(evt) {
     obj.top = (parseInt(mouseY(evt))+offY) + 'px'; 
     }
 document.onmousemove = follow;
-</script>
-</head>
-<body>
-<div id="character">test</div>
-<br><br>
-<div id='onme' onMouseover='document.getElementById(divName).style.display="block"' onMouseout='document.getElementById(divName).style.display="none"'>Mouse over this</div>
-</body>
 
