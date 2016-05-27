@@ -13,31 +13,3 @@ function follow(evt) {
     }
 document.onmousemove = follow;
 
-<head>
-    <script type="text/javascript">
-    function rollover() {
-      if (!document.getElementById) return
-      var imgOrSrc;
-      var imgPreload = new Array();
-      var images = document.getElementsByTagName('img');
-      for (var i = 0; i < images.length; i++) {
-        if (images[i].getAttribute('rsrc')) {
-          imgPreload[i] = new Image();
-          imgPreload[i].src = images[i].getAttribute('rsrc');
-          images[i].onmouseover = function() {
-            imgOrSrc = this.getAttribute('src');
-            this.setAttribute('src',this.getAttribute('rsrc'))
-          }
-          images[i].onmouseout = function() {
-            this.setAttribute('src',imgOrSrc)
-          }
-        }
-      }
-    }
-    </script>
-    </head>
-    <body onLoad="rollover()">
-    <div id="landimage">
-    <a href="linkhere"><img src="/images/braeden.png" rsrc="/images/braeden2.png" border="0"></a>
-    </div>
-    </body>
