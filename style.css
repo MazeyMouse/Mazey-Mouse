@@ -44,3 +44,7 @@ body {
 	background-position: bottom center;
 
 }
+
+#character {
+    position: absolute;
+}
