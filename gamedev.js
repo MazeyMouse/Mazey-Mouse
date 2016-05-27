@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 var divName = 'character'; // div that is to follow the mouse (must be position:absolute)
 var offX = 15;          // X offset from mouse position
 var offY = 15;          // Y offset from mouse position
