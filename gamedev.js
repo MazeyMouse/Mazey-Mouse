@@ -13,5 +13,8 @@ function follow(evt) {
     }
 document.onmousemove = follow;
 
-
+$("#cheese").slideDown( "fast", function() {
+    // Animation complete.
+  });
+});
 
