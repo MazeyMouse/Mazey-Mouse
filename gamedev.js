@@ -13,5 +13,5 @@ function follow(evt) {
     }
 document.onmousemove = follow;
 
-#cheese.slideDown(500)
+
 
