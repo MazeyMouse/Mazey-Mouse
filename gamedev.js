@@ -17,4 +17,4 @@ document.onmousemove = follow;
     // Animation complete.
   });
 
-  $( "cheese" ).animate({down: "20px"}, 500)
+  $( "cheese" ).animate({down: "100px"}, 500)
