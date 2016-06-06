@@ -16,3 +16,5 @@ document.onmousemove = follow;
   $( "#cheese" ).slideDown( "500", function() {
     // Animation complete.
   });
+
+  $( "cheese" ).hide().animate({down: "20px"}, 500)
