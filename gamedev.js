@@ -13,8 +13,5 @@ function follow(evt) {
     }
 document.onmousemove = follow;
 
-  $( "#cheese" ).slideDown( "500", function() {
-    // Animation complete.
-  });
-
+ 
   $( "cheese" ).animate({down: "100px"}, 500)
