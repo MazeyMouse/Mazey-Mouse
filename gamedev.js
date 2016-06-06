@@ -14,4 +14,4 @@ function follow(evt) {
 document.onmousemove = follow;
 
  
-  $( "cheese" ).animate({top: "-50px"}, 500)
+  $( "cheese" ).animate({top: "-900px"}, 500)
