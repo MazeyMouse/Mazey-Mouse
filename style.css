@@ -49,3 +49,11 @@ body {
     position: absolute;
     margin-top: 650px;
 }
+
+body {height: 600px; background-color: #999}
+#cheese {
+    position:absolute;
+    width:100%;
+    left:0px;
+    top:113px;
+}
