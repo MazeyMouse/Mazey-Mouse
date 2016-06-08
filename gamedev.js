@@ -8,10 +8,7 @@ function mouseY(evt) {if (!evt) evt = window.event; if (evt.pageY) return evt.pa
 
 function follow(evt) {
     var obj = document.getElementById(divName).style;
-    obj.left = (parseInt(mouseX(evt))+offX) + 'px';
-    obj.top = (parseInt(mouseY(evt))+offY) + 'px'; 
-    }
-document.onmousemove = follow;
+    
 
 
 
