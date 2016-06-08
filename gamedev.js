@@ -49,7 +49,7 @@ document.onmousemove = follow;
     //function that makes the magic happen! Below, jQuery prints the word "FALSE" into #results
     $('#result').text('False');
     //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
-    $.each($('.cheesy'), function() {
+    $.each($('.mouse'), function() {
       if (collision($('#character'), $(this))) { //another if statement. If #myCar DOES hit something, the following will happen:
         $('#result').text('True');
         //if #myCar hits .othercar, then #results will say "TRUE"
