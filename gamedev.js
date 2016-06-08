@@ -40,4 +40,18 @@ document.onmousemove = follow;
 
         if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2) return false;
         return true;
+
+        if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2) return false;
+    return true;
+  }
+
+  window.setInterval(function() {
+    //function that makes the magic happen! Below, jQuery prints the word "FALSE" into #results
+    $('#result').text('False');
+    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
+    $.each($('.otherCar'), function() {
+      if (collision($('#character'), $(this))) { //another if statement. If #myCar DOES hit something, the following will happen:
+        $('#result').text('True');
+        //if #myCar hits .othercar, then #results will say "TRUE"
+        $("cheese").hide().delay(100).fadeOut();
       }
