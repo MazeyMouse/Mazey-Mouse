@@ -13,16 +13,7 @@ function follow(evt) {
     }
 document.onmousemove = follow;
 
- $(document).ready(function(){
-   var bodyHeight = $('body').height();
-   var footerOffsetTop = $('#cheese').offset().top;
-   var topToBottom = bodyHeight -footerOffsetTop;
-    
-  $('#cheese').css({top:'auto',bottom:topToBottom});
-  $("#cheese").delay(100).animate({
-    bottom: '50px',
-    }, 1200);  
-})
+
 
  
     animateDiv();
