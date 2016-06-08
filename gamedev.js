@@ -25,16 +25,16 @@ document.onmousemove = follow;
 })
 
   function collision($character, $cheese) {
-        var x1 = $div1.offset().left;
-        var y1 = $div1.offset().top;
-        var h1 = $div1.outerHeight(true);
-        var w1 = $div1.outerWidth(true);
+        var x1 = $character.offset().left;
+        var y1 = $character.offset().top;
+        var h1 = $character.outerHeight(true);
+        var w1 = $character.outerWidth(true);
         var b1 = y1 + h1;
         var r1 = x1 + w1;
-        var x2 = $div2.offset().left;
-        var y2 = $div2.offset().top;
-        var h2 = $div2.outerHeight(true);
-        var w2 = $div2.outerWidth(true);
+        var x2 = $cheese.offset().left;
+        var y2 = $cheese.offset().top;
+        var h2 = $cheese.outerHeight(true);
+        var w2 = $cheese.outerWidth(true);
         var b2 = y2 + h2;
         var r2 = x2 + w2;
 
