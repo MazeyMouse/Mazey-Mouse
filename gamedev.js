@@ -6,6 +6,7 @@ $(document).bind('mousemove', function(e){
 });
 
 
+ 
     animateDiv();
 
 function makeNewPosition(){
