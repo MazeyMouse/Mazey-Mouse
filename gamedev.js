@@ -20,6 +20,6 @@ document.onmousemove = follow;
     
   $('#cheese').css({top:'auto',bottom:topToBottom});
   $("#cheese").delay(100).animate({
-    bottom: '100px',
+    bottom: '50px',
     }, 1200);  
 })
