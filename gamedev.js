@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
 
 $(document).bind('mousemove', function(e){
     $('#character').css({
