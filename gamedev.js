@@ -29,7 +29,7 @@ function animateDiv(){
       animateDiv();        
     });
     
-};
+});
 
 //this is where the JavaScript collision starts. First we define all the variables of how the collision will happen
   function collision($div1, $div2) {
