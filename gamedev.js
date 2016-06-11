@@ -33,7 +33,11 @@ function animateDiv(){
 
 //this is where the JavaScript collision starts. First we define all the variables of how the collision will happen
   
+$(document).ready(function() {
 
+  //tell JavaScript what div is the sprite - use the div id
+  var character = $("#character");
+  $("#gameover").hide();
   function collision($div1, $div2) {
     var x1 = $div1.offset().left;
     var y1 = $div1.offset().top;
