@@ -75,9 +75,5 @@ function animateDiv(){
 
 
 
-//this is where the JavaScript collision starts. First we define all the variables of how the collision will happen
-  
 
-
-  //tell JavaScript what div is the sprite - use the div id
   
