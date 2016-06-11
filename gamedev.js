@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 $(document).bind('mousemove', function(e){
     $('#character').css({
        left:  e.pageX + 20,
@@ -27,21 +29,11 @@ function animateDiv(){
   //James change .a to .othercar
     $('.a').animate({ top: newq[0], left: newq[1] }, function(){
       animateDiv();        
-    });
+    };
     
 });
 
-
-
-
-
-
-//this is where the JavaScript collision starts. First we define all the variables of how the collision will happen
-  
-$(document).ready(function() {
-
-  //tell JavaScript what div is the sprite - use the div id
-  var character = $("#character");
+    var character = $("#character");
   $("#gameover").hide();
   function collision($div1, $div2) {
     var x1 = $div1.offset().left;
@@ -77,3 +69,15 @@ $(document).ready(function() {
   }, 200); //this is how often it checks for a collision
 
 }); //document.ready ends - do not delete!!!
+
+
+
+
+
+
+//this is where the JavaScript collision starts. First we define all the variables of how the collision will happen
+  
+
+
+  //tell JavaScript what div is the sprite - use the div id
+  
