@@ -52,12 +52,12 @@ function animateDiv(){
 
   window.setInterval(function() {
     //function that makes the magic happen! Below, jQuery prints the word "FALSE" into #results
-  
-    
-    $.each($('.a'), function() {
+    $('#result').text('False');
+    //IMPORTANT!!! Below declares the class of divs that your sprite collides with!!
+    $('.a'), function() {
       if (collision($('#character'), $(this))) { //another if statement. If #myCar DOES hit something, the following will happen:
 
-        $("gameover").show().delay(200)
+        $("#alwaysPizza").show().delay(200).fadeOut();
 
         //all the actions that happen during a collision go here
 
