@@ -60,7 +60,7 @@ function animateDiv(){
     $('.a'), function() {
       if (collision($('#character'), $(this))) { //another if statement. If #myCar DOES hit something, the following will happen:
 
-        $("#gameover").show().delay(200).fadeOut();
+        $("#gameover").show().delay(200);
 
         //all the actions that happen during a collision go here
 
