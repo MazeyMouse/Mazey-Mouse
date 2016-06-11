@@ -31,6 +31,11 @@ function animateDiv(){
     
 });
 
+
+
+
+
+
 //this is where the JavaScript collision starts. First we define all the variables of how the collision will happen
   
 $(document).ready(function() {
