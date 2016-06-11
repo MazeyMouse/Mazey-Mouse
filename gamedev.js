@@ -8,7 +8,6 @@ $(document).bind('mousemove', function(e){
 });
 
 
- 
     animateDiv();
 
 function makeNewPosition(){
@@ -29,8 +28,6 @@ function animateDiv(){
   //James change .a to .othercar
     $('.a').animate({ top: newq[0], left: newq[1] }, function(){
       animateDiv();        
-    };
+    });
     
-});
-
-   
+};
