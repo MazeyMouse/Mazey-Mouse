@@ -37,5 +37,4 @@ $(document).ready(function() {
    var character = $("#character");
   $("gameover").hide();
 
-    if (collisionBetween(p, $("#cat"))) {
-    $("#character"); ("gameover").show();
+   
