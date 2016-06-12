@@ -32,11 +32,16 @@ function animateDiv(){
     
 };
 
+}); 
+
+
 $(document).ready(function() {
 
  var character = $("#character");
+
 $("#gameover").hide();
 };
+
 });
 
 function collision($div1, $div2) {
