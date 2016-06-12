@@ -51,6 +51,10 @@ body {
    
 }
 
+#gameover {
+  background-image: url("http://wallpapercave.com/wp/RMIs0gk.png");
+}
+
 body {height: 600px; background-color: #999}
 
 div.a {
