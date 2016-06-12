@@ -33,6 +33,17 @@ function animateDiv(){
 };
 
 
+$(document).ready(function(e) {
+  $("tryagain").hide();
+
+   if (collisionBetween(c, $("#cat"))) {
+
+    $("#tryagain").show();
+    $("#character").hide();
+    $("#cat").hide();
+
+  }
+
 
 
    

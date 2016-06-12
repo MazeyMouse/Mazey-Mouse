@@ -51,7 +51,10 @@ body {
    
 }
 
-
+#tryagain {
+  font-family: monospace;
+  float: center;
+  left: 570px;
 
 
 
