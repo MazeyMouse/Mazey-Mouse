@@ -32,4 +32,4 @@ function animateDiv(){
     
 };
 
-$ var character = $("#character"); $("#gameover").hide();
+$("#character"); $("#gameover").hide();
