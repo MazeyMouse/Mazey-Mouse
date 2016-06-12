@@ -32,5 +32,5 @@ function animateDiv(){
     
 };
 
-$(document).ready(function() {
+
 
