@@ -33,4 +33,7 @@ function animateDiv(){
 };
 
 
+$(document).ready(function(e) {
+  $("#gameover").hide();
+
    
