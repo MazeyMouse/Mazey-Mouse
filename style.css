@@ -55,6 +55,8 @@ body {
   content: url(http://wallpapercave.com/wp/RMIs0gk.png);
   height: 800px;
   width: 1300px;
+  float: left;
+
 }
 
 body {height: 600px; background-color: #999}
