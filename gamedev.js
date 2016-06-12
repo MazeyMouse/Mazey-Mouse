@@ -32,4 +32,6 @@ function animateDiv(){
     
 };
 
-$("#character"); $("#gameover").hide();
+$(document).ready(function() {
+
+  $("#gameover").hide();
