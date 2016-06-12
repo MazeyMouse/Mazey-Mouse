@@ -34,4 +34,3 @@ function animateDiv(){
 
 $(document).ready(function() {
 
-  $("#gameover").hide();
