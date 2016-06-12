@@ -53,15 +53,15 @@ body {
 
 #gameover {
   content: url(http://wallpapercave.com/wp/RMIs0gk.png);
-  height: 1000;
-  width: 1500;
+  height: 1000px;
+  width: 1500px;
 }
 
 body {height: 600px; background-color: #999}
 
 div.a {
   content: url(http://cliparts.co/cliparts/yik/A5k/yikA5kq6T.png);
-  width: 310;
+  width: 310px;
   height: 310px;
   position: fixed;
 }
