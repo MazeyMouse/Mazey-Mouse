@@ -53,7 +53,8 @@ function collision($div1, $div2) {
     var b2 = y2 + h2;
     var r2 = x2 + w2;
     //below is an if statement - if the variables calculate to the right formula, it will return true or false
-    
+    if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2) return false;
+    return true;
   }
 
   window.setInterval(function() {
