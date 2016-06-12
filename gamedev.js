@@ -32,7 +32,13 @@ function animateDiv(){
     
 };
 
+$(document).ready(function() {
+
+ var character = $("#character");
 $("#gameover").hide();
+};
+});
+
 function collision($div1, $div2) {
     var x1 = $div1.offset().left;
     var y1 = $div1.offset().top;
@@ -52,7 +58,7 @@ function collision($div1, $div2) {
   }
 
   window.setInterval(function() {
-    $('.a'), function() {
+      $.each($('.a'), function() {
       if (collision($('#character'), $(this))){
 
                 $("#gameover").show().delay(200).();
