@@ -51,6 +51,13 @@ body {
    
 }
 
+#gameover{
+  content: url(http://wallpapercave.com/wp/RMIs0gk.png);
+  height: 400px;
+  width: 1600px;
+  float: right;
+}
+
 
 
 
