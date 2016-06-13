@@ -64,3 +64,9 @@ div.a {
   position: fixed;
 }
 
+#tryagain {
+  font-family: monospace;
+  float: center;
+  left: 570px;
+}
+

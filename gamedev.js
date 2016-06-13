@@ -33,7 +33,9 @@ function animateDiv(){
 };
 
 
+$(document).ready(function() {
 
+   $("tryagain").hide();
 
 
 
